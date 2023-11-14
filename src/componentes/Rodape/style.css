@@ -1,0 +1,28 @@
+footer {
+    background-color: #000;
+    width: 100%;
+}
+
+.rodape {
+    padding: 60px 0 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+.rodape img {
+    width: 100px;
+}
+
+.rodape-dois {
+    padding: 22px 0;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+}
+
+.rodape-dois a {
+    text-decoration: none;
+    color: aqua;
+}

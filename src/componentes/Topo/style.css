@@ -1,0 +1,51 @@
+header {
+    top: 0;
+    position: fixed;
+    width: 100%;
+    background-color: #f9db79;
+}
+
+.topo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+}
+
+.topo img {
+    width: 52px;
+}
+
+.link {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+.link:nth-child(even) {
+    margin: 0 3em;
+}
+
+/* Media Queries */
+@media (max-width: 425px) {
+    .topo {
+        flex-direction: column;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    .topo img {
+        margin-bottom: 15px;
+    }
+
+    .topo nav {
+        border-top: 1px solid rgb(46, 45, 45);
+        width: 100%;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+}
+
+@media (max-width: 768px) {}

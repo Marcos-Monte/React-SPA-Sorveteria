@@ -1,5 +1,7 @@
 import React from 'react';
 
+import './style.css';
+
 export default function Footer() {
     return (
         <footer>
@@ -28,7 +30,7 @@ export default function Footer() {
 
             </div>
             <div className="container rodape-dois">
-                <p>Gelateria. Orgulhosamente desenvolvido por <a href="https://www.linkedin.com/in/montemarcos/" target="_blank">Marcos Monte</a></p>
+                <p>Gelateria. Orgulhosamente desenvolvido por <a href="https://www.linkedin.com/in/montemarcos/" target="_blank"> Marcos Monte</a></p>
             </div>
         </footer>
     )

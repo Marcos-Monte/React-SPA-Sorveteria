@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+import './style.css';
+
 export default function Header() {
     return (
         <header>
@@ -8,9 +10,9 @@ export default function Header() {
 
                 <img src="assets\logo.png" />
                 <nav>
-                    <Link to='/'>Home</Link>
-                    <Link to='/sabores'>Sabores</Link>
-                    <Link to='/sobre'>Sobre</Link>
+                    <Link className="link" to='/'>Home</Link>
+                    <Link className="link" to='/sabores'>Sabores</Link>
+                    <Link className="link" to='/sobre'>Sobre</Link>
                 </nav>
             </div>
         </header>
