@@ -14,10 +14,10 @@ const PaginaHome = () => {
 
                 <section className="banner">
                     <div className="container conteudo-banner">
-                        <h1>SORVETE ARTESANAL</h1>
+                        <h1 className="titulo">SORVETE ARTESANAL</h1>
                     </div>
                 </section>
-                <section className="conteudo sabores">
+                <section className="conteudo">
 
                     <img src="assets\banner-sabores.jpg" />
 
@@ -29,7 +29,7 @@ const PaginaHome = () => {
                     </div>
 
                 </section>
-                <section className="conteudo eventos">
+                <section className="conteudo">
 
                     <div>
                         <h2>NOSSOS EVENTOS</h2>
@@ -41,7 +41,7 @@ const PaginaHome = () => {
                     <img src="assets\eventos-image.jpg" />
 
                 </section>
-                <section className="conteudo sobre">
+                <section className="conteudo">
 
                     <img src="assets\sobre-image.jpg" />
 
