@@ -16,7 +16,7 @@ footer {
 }
 
 .rodape-dois {
-    padding: 22px 0;
+    padding: 22px;
     width: 100%;
     color: #fff;
     text-align: center;
@@ -25,4 +25,21 @@ footer {
 .rodape-dois a {
     text-decoration: none;
     color: aqua;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .rodape {
+        flex-direction: column;
+    }
+
+    .rodape div {
+        margin: 20px 0;
+        text-align: center;
+    }
+
+    .rodape div p,
+    .rodape h3 {
+        margin: 0px
+    }
 }
