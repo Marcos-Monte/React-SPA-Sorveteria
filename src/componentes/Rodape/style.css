@@ -4,7 +4,7 @@ footer {
 }
 
 .rodape {
-    padding: 60px 0 100px;
+    padding: 60px 20px 100px 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
